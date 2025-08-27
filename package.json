@@ -1,0 +1,21 @@
+{
+  "name": "topz-casino",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "prisma migrate deploy && next build",
+    "start": "next start",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "jsonwebtoken": "9.0.2",
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@prisma/client": "5.18.0"
+  },
+  "devDependencies": {
+    "prisma": "5.18.0"
+  }
+}
